@@ -1,0 +1,59 @@
+.nav {
+    float: right ;
+    list-style: none;
+    margin-right: 10px;
+}
+
+.nav li{
+    float: left ;
+    display:inline;
+    margin: 0 0 0 30px;
+    width:100px;
+   
+    border: 1px solid white;
+}
+.nav li>a { font: 1em helvertica arial sans-serif ;
+    line-height: 3em ;
+    display : inline-block ;
+    width:100px ;
+    text-align:center;
+    text-decoration : none ;
+    font-weight:bold;
+ }
+   .nav a:hover { color :#fff ;
+background-color :#db9834;}
+ a{ color: white;}
+#fondecran {
+    
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    
+    min-width: 100%;
+    min-height: 100%;
+
+}
+.bg-image{
+    height: 100vh;
+    background-image: url("/home/marceline/Bureau/image/pic.png");
+    filter: blur(8px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contenu {
+    z-index: 2 ;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4);
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
